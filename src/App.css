@@ -14,7 +14,9 @@
 	flex-direction: column;
 	align-items: center;
 	background-color: #b7beba;
+	transition: all 0.3s ease-in-out;
 }
+
 .AppDark {
 	width: 100%;
 	height: 100vh;
@@ -22,5 +24,51 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: #45534a;
+	transition: all 0.3s ease-in-out;
+}
+
+.headingDark {
+	font-size: 2.6em;
+	color: #171b18;
+	transition: all 0.3s ease-in-out;
+}
+.headingLight {
+	font-size: 2.6em;
+	color: #b7beba;
+	transition: all 0.3s ease-in-out;
+}
+
+.textDark {
+	font-size: 1.4em;
+	color: #171b18;
+	transition: all 0.3s ease-in-out;
+}
+.textLight {
+	font-size: 1.4em;
+	color: #b7beba;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn {
+	margin: 2em 0em;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	width: 12%;
+	padding: 0.6em 2em;
+	font-size: 1.2em;
+	background: none;
 	background-color: #b7beba;
+	border: 0.04em solid #171b18;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #45534a;
+	color: #b7beba;
 }
