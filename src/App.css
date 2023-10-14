@@ -72,3 +72,34 @@ button:hover {
 	background-color: #45534a;
 	color: #b7beba;
 }
+
+.viewcontent {
+	width: 70%;
+	height: 300px;
+	padding: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0.04em solid #171b18;
+	transform: translateX(0%);
+	background-color: #b7beba;
+	transition: all 0.3s ease-in-out;
+}
+
+.noviewcontent {
+	width: 70%;
+	height: 300px;
+	padding: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0.04em solid #171b18;
+	transform: translateX(-200%);
+	background-color: #b7beba;
+	transition: all 0.3s ease-in-out;
+}
+
+.textcontent {
+	text-align: center;
+	font-size: 1.2em;
+}
